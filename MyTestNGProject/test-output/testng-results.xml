@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-05T22:31:49 CST" name="Default suite" finished-at="2024-11-05T22:32:01 CST" duration-ms="11268">
+    <groups>
+    </groups>
+    <test started-at="2024-11-05T22:31:49 CST" name="Default test" finished-at="2024-11-05T22:32:01 CST" duration-ms="11268">
+      <class name="Listeners.ListernerDependsOn">
+        <test-method signature="login()[pri:0, instance:Listeners.ListernerDependsOn@505fc5a4]" started-at="2024-11-05T22:31:49 CST" name="login" finished-at="2024-11-05T22:32:01 CST" duration-ms="11203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:Listeners.ListernerDependsOn@505fc5a4]" started-at="2024-11-05T22:32:01 CST" name="logout" finished-at="2024-11-05T22:32:01 CST" depends-on-methods="Listeners.ListernerDependsOn.login" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Listeners.ListernerDependsOn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
